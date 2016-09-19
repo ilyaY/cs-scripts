@@ -2,4 +2,4 @@ function greetFun() {
   DX.log("Greetings!");
 }
 
-DX.greet = greetFun();
+DX.greet = greetFun;
