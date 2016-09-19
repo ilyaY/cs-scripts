@@ -1,4 +1,3 @@
-function greet(group) {
-  var oldMan = group.part("old");
-  oldMan.say("Greetings!");
+function greetFun() {
+  DX.log("Greetings!");
 }
