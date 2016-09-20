@@ -1,5 +1,5 @@
 function greetFun() {
-  DX.log("Greetings!");
+  var oldMan = obj.part("old");
+  oldMan.say("Hello!");
 }
-
-DX.greet = greetFun;
+obj.greet = greetFun;
