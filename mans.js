@@ -1,5 +1,5 @@
 function greetFun() {
-  var oldMan = obj.part("old");
-  oldMan.say("Hello!");
+  var man = obj.part("man");
+  man.say("Hello!");
 }
 obj.greet = greetFun;
